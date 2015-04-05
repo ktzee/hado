@@ -1,0 +1,135 @@
+Critical exception in coreTraceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 50, in run
+    p.run(config.core.host, int(config.core.port))
+ValueError: invalid literal for int() with base 10: '# https://github.com/embolalia/willie/wiki/Core-configuration-settings'
+----------------------------------------
+
+Critical exception in coreTraceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 50, in run
+    p.run(config.core.host, int(config.core.port))
+ValueError: invalid literal for int() with base 10: '# https://github.com/embolalia/willie/wiki/Core-configuration-settings'
+----------------------------------------
+
+Critical exception in coreTraceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 45, in run
+    p = bot.Willie(config)
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 92, in __init__
+    self.db.add_table('preferences', ['name'], 'name')
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 249, in add_table
+    db = self.connect()
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 302, in connect
+    return sqlite3.connect(self._file)
+OperationalError: unable to open database file
+----------------------------------------
+
+Critical exception in coreTraceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 45, in run
+    p = bot.Willie(config)
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 92, in __init__
+    self.db.add_table('preferences', ['name'], 'name')
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 249, in add_table
+    db = self.connect()
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 302, in connect
+    return sqlite3.connect(self._file)
+OperationalError: unable to open database file
+----------------------------------------
+
+Critical exception in coreTraceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 45, in run
+    p = bot.Willie(config)
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 92, in __init__
+    self.db.add_table('preferences', ['name'], 'name')
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 249, in add_table
+    db = self.connect()
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 302, in connect
+    return sqlite3.connect(self._file)
+OperationalError: unable to open database file
+----------------------------------------
+
+Signature: NameError: global name 'self' is not defined (file "/home/ktz/.willie/modules/stream.py", line 6, in streams)
+from #czakof at 2015-04-04 13:28:10.235964:
+Message was: <ktze> .streams
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 6, in streams
+    result = self.twitch.getGames(offset=0, limit=10)
+NameError: global name 'self' is not defined
+----------------------------------------
+
+Signature: AttributeError: 'module' object has no attribute 'getGames' (file "/home/ktz/.willie/modules/stream.py", line 6, in streams)
+from ktze at 2015-04-04 13:29:09.789515:
+Message was: <ktze> .streams
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 6, in streams
+    result = twitch.getGames(offset=0, limit=10)
+AttributeError: 'module' object has no attribute 'getGames'
+----------------------------------------
+
+Signature: TwitchException: 3 (file "/usr/lib/python2.7/site-packages/twitch/__init__.py", line 68, in getJson)
+from ktze at 2015-04-04 13:36:25.266706:
+Message was: <ktze> .streams
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 8, in streams
+    result = twitch.getGames(offset=0, limit=10)
+  File "/usr/lib/python2.7/site-packages/twitch/__init__.py", line 137, in getGames
+    return self._fetchItems(url, Keys.TOP)
+  File "/usr/lib/python2.7/site-packages/twitch/__init__.py", line 295, in _fetchItems
+    items = self.scraper.getJson(url)
+  File "/usr/lib/python2.7/site-packages/twitch/__init__.py", line 68, in getJson
+    raise TwitchException(TwitchException.JSON_ERROR)
+TwitchException: 3
+----------------------------------------
+
+Signature: AttributeError: 'function' object has no attribute 'channeldata' (file "/home/ktz/.willie/modules/stream.py", line 16, in streams)
+from ktze at 2015-04-04 13:43:45.759093:
+Message was: <ktze> .streams
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 16, in streams
+    bot.reply(live.channeldata)
+AttributeError: 'function' object has no attribute 'channeldata'
+----------------------------------------
+
+Signature: TypeError: getLiveStream() takes exactly 3 arguments (1 given) (file "/home/ktz/.willie/modules/stream.py", line 11, in streams)
+from ktze at 2015-04-04 14:30:09.511596:
+Message was: <ktze> .streams
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 11, in streams
+    live = twitch.getLiveStream()
+TypeError: getLiveStream() takes exactly 3 arguments (1 given)
+----------------------------------------
+
+Signature: NameError: global name 'maxQuality' is not defined (file "/home/ktz/.willie/modules/stream.py", line 11, in streams)
+from ktze at 2015-04-04 14:32:26.448672:
+Message was: <ktze> .streams
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 11, in streams
+    live = twitch.getLiveStream("KOFGCC", maxQuality)
+NameError: global name 'maxQuality' is not defined
+----------------------------------------
+
+Signature: AttributeError: 'dict' object has no attribute 'decode' (file "/usr/lib/python2.7/site-packages/willie/irc.py", line 463, in msg)
+from ktze at 2015-04-04 20:11:49.011897:
+Message was: <ktze> .streams
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/twitch.py", line 13, in helloworld
+    bot.say(json_data)
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 570, in say
+    self.bot.msg(self.origin.sender, string, max_messages)
+  File "/usr/lib/python2.7/site-packages/willie/irc.py", line 463, in msg
+    text = encoded_text.decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+----------------------------------------
+

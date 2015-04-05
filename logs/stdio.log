@@ -1,0 +1,755 @@
+No user settings database specified. Ignoring.
+
+Welcome to Willie. Loading modules...
+
+
+Error in rss setup procedure: ConfigurationError: Database not set up, or unavailable. (modules/rss.py:30)
+
+
+Registered 39 modules,
+1 modules failed to load
+
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 50, in run
+    p.run(config.core.host, int(config.core.port))
+ValueError: invalid literal for int() with base 10: '# https://github.com/embolalia/willie/wiki/Core-configuration-settings'
+
+No user settings database specified. Ignoring.
+
+Welcome to Willie. Loading modules...
+
+
+Error in rss setup procedure: ConfigurationError: Database not set up, or unavailable. (modules/rss.py:30)
+
+
+Registered 39 modules,
+1 modules failed to load
+
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 50, in run
+    p.run(config.core.host, int(config.core.port))
+ValueError: invalid literal for int() with base 10: '# https://github.com/embolalia/willie/wiki/Core-configuration-settings'
+
+Error: Unable to connect to DB.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 45, in run
+    p = bot.Willie(config)
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 92, in __init__
+    self.db.add_table('preferences', ['name'], 'name')
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 249, in add_table
+    db = self.connect()
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 302, in connect
+    return sqlite3.connect(self._file)
+OperationalError: unable to open database file
+
+Error: Unable to connect to DB.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 45, in run
+    p = bot.Willie(config)
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 92, in __init__
+    self.db.add_table('preferences', ['name'], 'name')
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 249, in add_table
+    db = self.connect()
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 302, in connect
+    return sqlite3.connect(self._file)
+OperationalError: unable to open database file
+
+Error: Unable to connect to DB.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/__init__.py", line 45, in run
+    p = bot.Willie(config)
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 92, in __init__
+    self.db.add_table('preferences', ['name'], 'name')
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 249, in add_table
+    db = self.connect()
+  File "/usr/lib/python2.7/site-packages/willie/db.py", line 302, in connect
+    return sqlite3.connect(self._file)
+OperationalError: unable to open database file
+
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 40 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 40 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+There's already a Willie instance running with this config file
+Try using the --quit or the --kill options
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 41 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: 'module' object has no attribute 'command' (../../../../../home/ktz/.willie/modules/stream.py:4)
+Error loading test_twitchtv: invalid syntax (test_twitchtv.py, line 4) (bot.py:312)
+
+
+Registered 41 modules,
+2 modules failed to load
+
+
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: 'module' object has no attribute 'command' (../../../../../home/ktz/.willie/modules/stream.py:4)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 6, in streams
+    result = self.twitch.getGames(offset=0, limit=10)
+NameError: global name 'self' is not defined
+
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 6, in streams
+    result = twitch.getGames(offset=0, limit=10)
+AttributeError: 'module' object has no attribute 'getGames'
+
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 8, in streams
+    result = twitch.getGames(offset=0, limit=10)
+  File "/usr/lib/python2.7/site-packages/twitch/__init__.py", line 137, in getGames
+    return self._fetchItems(url, Keys.TOP)
+  File "/usr/lib/python2.7/site-packages/twitch/__init__.py", line 295, in _fetchItems
+    items = self.scraper.getJson(url)
+  File "/usr/lib/python2.7/site-packages/twitch/__init__.py", line 68, in getJson
+    raise TwitchException(TwitchException.JSON_ERROR)
+TwitchException: 3
+
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 16, in streams
+    bot.reply(live.channeldata)
+AttributeError: 'function' object has no attribute 'channeldata'
+
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 11, in streams
+    live = twitch.getLiveStream()
+TypeError: getLiveStream() takes exactly 3 arguments (1 given)
+
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/stream.py", line 11, in streams
+    live = twitch.getLiveStream("KOFGCC", maxQuality)
+NameError: global name 'maxQuality' is not defined
+
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+There's already a Willie instance running with this config file
+Try using the --quit or the --kill options
+Got quit signal, shutting down.
+Calling shutdown for 0 modules.
+Closed!
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: expected an indented block (stream.py, line 7) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: expected an indented block (stream.py, line 8) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: expected an indented block (stream.py, line 8) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: expected an indented block (stream.py, line 8) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: expected an indented block (stream.py, line 8) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: expected an indented block (stream.py, line 8) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: invalid syntax (stream.py, line 18) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: expected an indented block (stream.py, line 18) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading stream: expected an indented block (stream.py, line 18) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading twitch: expected an indented block (twitch.py, line 18) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 41 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading twitch: expected an indented block (twitch.py, line 18) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading twitch: expected an indented block (twitch.py, line 17) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading twitch: expected an indented block (twitch.py, line 17) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+Error loading twitch: invalid syntax (twitch.py, line 15) (bot.py:312)
+
+
+Registered 41 modules,
+1 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 747, in call
+    exit_code = func(willie, trigger)
+  File "/home/ktz/.willie/modules/twitch.py", line 13, in helloworld
+    bot.say(json_data)
+  File "/usr/lib/python2.7/site-packages/willie/bot.py", line 570, in say
+    self.bot.msg(self.origin.sender, string, max_messages)
+  File "/usr/lib/python2.7/site-packages/willie/irc.py", line 463, in msg
+    text = encoded_text.decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+{u'_total': 0, u'streams': [], u'_links': {u'self': u'https://api.twitch.tv/kraken/streams?game=The+King+Of+Fighter+XIII&limit=25&offset=0', u'summary': u'https://api.twitch.tv/kraken/streams/summary', u'followed': u'https://api.twitch.tv/kraken/streams/followed', u'featured': u'https://api.twitch.tv/kraken/streams/featured', u'next': u'https://api.twitch.tv/kraken/streams?game=The+King+Of+Fighter+XIII&limit=25&offset=25'}}
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
+[]
+KeyboardInterrupt
+
+Welcome to Willie. Loading modules...
+
+
+
+
+Registered 42 modules,
+0 modules failed to load
+
+
+Connecting to irc.quakenet.org:6667...
+Connected.
